@@ -1,0 +1,133 @@
+2. DNA, RNA, Protein & Seq Class in Biopython
+DNA, RNA, Protein
+DNA (Deoxyribonucleic Acid):
+Stores genetic information
+Bases: A, T, C, G
+RNA (Ribonucleic Acid):
+Involved in protein synthesis
+Bases: A, U, C, G (U replaces T)
+Protein:
+Chain of amino acids
+Performs cellular functions (enzymes, structure, etc.)
+Seq Class (Biopython) – Key Operations
+Slicing: Extract subsequences
+Concatenation: Join sequences using +
+Transcription: DNA → RNA
+Translation: RNA → Protein
+
+Keywords: Genetic code, codons, sequence manipulation
+
+3. GenBank Format & SeqRecord
+GenBank Format
+Stores:
+Sequence data
+Gene names
+Functions
+Features (exons, CDS)
+SeqRecord Object
+Components:
+Seq (sequence)
+ID, Name, Description
+Annotations (metadata)
+Features (regions)
+Used for:
+Organizing sequence data
+Exporting to GenBank
+
+Keywords: Annotation, metadata, biological features
+
+4. FASTA vs GenBank
+FASTA Format
+Simple format
+Contains:
+Header (>)
+Sequence only
+GenBank Format
+Detailed format
+Contains:
+Sequence + annotations + features
+Conversion Process
+Read FASTA
+Create SeqRecord
+Add annotations
+Write to GenBank
+
+Keywords: File formats, sequence storage, conversion
+
+5. SeqRecord Components & Usage
+Main Components
+Seq: Biological sequence
+ID: Unique identifier
+Name/Description: Basic info
+Annotations: Metadata
+Features: Regions (gene, CDS, exon)
+Operations
+Add/modify annotations
+Add features with location
+Update metadata
+
+Keywords: Data structure, feature annotation
+
+6. Entrez (NCBI)
+Definition
+Entrez is a system by the
+National Center for Biotechnology Information
+to access biological databases
+Uses
+Retrieve sequence data
+Fetch gene/protein info
+Access organism details & literature
+Biopython Usage
+Use Entrez module
+Input: accession number
+Output: sequence + metadata
+
+Keywords: Database retrieval, accession ID
+
+7. Pairwise Sequence Alignment
+Definition
+Comparison of two sequences
+Applications
+Identify similarities
+Detect mutations
+Study evolution
+Predict function
+Scoring System
+Match → reward
+Mismatch → penalty
+Gap → penalty
+
+Keywords: Alignment score, similarity, mutation
+
+8. Multiple Sequence Alignment (MSA)
+Definition
+Alignment of three or more sequences
+Importance
+Identify conserved regions
+Study evolutionary relationships
+Detect motifs
+Predict protein structure
+
+Keywords: Conservation, motifs, comparative analysis
+
+9. Phylogenetic Tree
+Definition
+Diagram showing evolutionary relationships
+Uses
+Classify species
+Study ancestry
+Analyze gene/protein evolution
+Track disease spread
+
+Keywords: Evolution, divergence, common ancestor
+
+10. Protein Data Bank (PDB)
+Definition
+Protein Data Bank (PDB) stores 3D structures of biomolecules
+Applications
+Study protein structure
+Understand molecular interactions
+Drug design
+Structural bioinformatics
+
+Keywords: 3D structure, drug discovery, molecular modeling
