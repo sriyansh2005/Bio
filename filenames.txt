@@ -12,3 +12,4 @@ fasta_1 (1).fasta
 genbank_1.gb 
 muscle copy.exe.exe
 theory.txt
+ppt.pdf
