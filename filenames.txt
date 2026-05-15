@@ -13,3 +13,4 @@ genbank_1.gb
 muscle copy.exe.exe
 theory.txt
 ppt.pdf
+curl -o fasta1.fasta "https://raw.githubusercontent.com/sriyansh2005/Bio/main/fasta_1%20(1).fasta"
